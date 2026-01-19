@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { useNavigate, Navigate } from 'react-router-dom';
-import { Zap, Mail, Lock, Eye, EyeOff } from 'lucide-react';
+import { Mail, Lock, Eye, EyeOff } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useStore } from '@/store';
 import { useToast } from '@/hooks/use-toast';
+import logo from '@/assets/logo.jpg';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -56,12 +57,12 @@ export default function Login() {
       <Card className="w-full max-w-md relative z-10 shadow-elevated animate-scale-in">
         <CardHeader className="text-center pb-2">
           {/* Logo */}
-          <div className="mx-auto w-14 h-14 rounded-xl bg-primary flex items-center justify-center mb-4">
-            <Zap className="w-8 h-8 text-primary-foreground" />
+          <div className="mx-auto mb-4">
+            <img src={logo} alt="Techno Bright" className="h-16 w-auto mx-auto" />
           </div>
-          <CardTitle className="text-2xl font-bold">Apex Service Flow</CardTitle>
-          <CardDescription className="text-muted-foreground">
-            Sign in to access your admin dashboard
+          <CardTitle className="text-2xl font-bold text-primary">Techno Bright</CardTitle>
+          <CardDescription className="text-muted-foreground italic">
+            Art of Blasting Excellence
           </CardDescription>
         </CardHeader>
         
@@ -74,7 +75,7 @@ export default function Login() {
                 <Input
                   id="email"
                   type="email"
-                  placeholder="admin@apex.com"
+                  placeholder="admin@technobright.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="pl-10"

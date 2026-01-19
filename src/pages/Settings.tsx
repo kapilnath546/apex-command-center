@@ -38,7 +38,7 @@ export default function Settings() {
             </div>
             <div className="space-y-2">
               <Label htmlFor="email">Email Address</Label>
-              <Input id="email" type="email" defaultValue={currentUser?.email || 'admin@apex.com'} />
+              <Input id="email" type="email" defaultValue={currentUser?.email || 'admin@technobright.com'} />
             </div>
           </div>
           <div className="space-y-2">
@@ -65,7 +65,7 @@ export default function Settings() {
         <CardContent className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="company">Company Name</Label>
-            <Input id="company" defaultValue="Apex Service Flow" />
+            <Input id="company" defaultValue="Techno Bright" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="space-y-2">
