@@ -64,7 +64,7 @@ const mockTechnicians: User[] = [
   {
     id: '1',
     name: 'John Doe',
-    email: 'john.doe@apex.com',
+    email: 'john.doe@technobright.com',
     role: 'technician',
     phone: '+1 (555) 123-4567',
     status: 'online',
@@ -73,7 +73,7 @@ const mockTechnicians: User[] = [
   {
     id: '2',
     name: 'Sarah Martinez',
-    email: 'sarah.m@apex.com',
+    email: 'sarah.m@technobright.com',
     role: 'technician',
     phone: '+1 (555) 234-5678',
     status: 'online',
@@ -82,7 +82,7 @@ const mockTechnicians: User[] = [
   {
     id: '3',
     name: 'Mike Johnson',
-    email: 'mike.j@apex.com',
+    email: 'mike.j@technobright.com',
     role: 'manager',
     phone: '+1 (555) 345-6789',
     status: 'online',
@@ -91,7 +91,7 @@ const mockTechnicians: User[] = [
   {
     id: '4',
     name: 'Emily Chen',
-    email: 'emily.c@apex.com',
+    email: 'emily.c@technobright.com',
     role: 'technician',
     phone: '+1 (555) 456-7890',
     status: 'offline',
@@ -100,7 +100,7 @@ const mockTechnicians: User[] = [
   {
     id: '5',
     name: 'David Wilson',
-    email: 'david.w@apex.com',
+    email: 'david.w@technobright.com',
     role: 'technician',
     phone: '+1 (555) 567-8901',
     status: 'online',
