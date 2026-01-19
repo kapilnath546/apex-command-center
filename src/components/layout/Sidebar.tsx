@@ -54,9 +54,9 @@ export function Sidebar() {
 
       {/* Footer */}
       {!collapsed && <div className="p-4 border-t border-border">
-          <div className="text-xs text-muted-foreground">
-            © 2024 Techno Bright
-          </div>
+          <div className="text-xs text-muted-foreground">© 2025 ApexFlow Technologies
+
+      </div>
         </div>}
     </aside>;
 }
